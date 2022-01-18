@@ -1,0 +1,28 @@
+{
+  "name": "week2-webpack-template",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vabuyia/Week2-Webpack-template.git"
+  },
+  "keywords": [],
+  "author": "Vincent Abuya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vabuyia/Week2-Webpack-template/issues"
+  },
+  "homepage": "https://github.com/vabuyia/Week2-Webpack-template#readme",
+  "devDependencies": {
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
