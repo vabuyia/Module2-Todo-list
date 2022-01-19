@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.form {
+  width: 70%;
+}
+
+.form:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.form input {
+  height: 35px;
+  border-radius: 3px;
+}
+
+.form input {
+  width: 80%;
+  float: left;
+  border: 1px solid rgba(123, 123, 123, 0.3);
+}
+
+.form button {
+  width: 20%;
+  float: right;
+  height: 35px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#todolist {
+  width: 70%;
+  margin: 20% auto;
+  list-style-type: none;
+}
+
+#todolist li {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid rgba(123, 123, 123, 0.2);
+}
+
+#todolist li a{
+  font-size: 14px;
+  float: right; 
+  cursor: pointer; 
+  margin: 5px; 
+}
